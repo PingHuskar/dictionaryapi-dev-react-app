@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+body input {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+body button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body h2 {
+  font-size: 4em;
+  text-transform: capitalize;
+}
+body h4 {
+  font-size: 1.5em;
+  text-align: left;
+  text-transform: capitalize;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body ol li {
+  text-align: left;
+  padding: 1vh 0;
+}
+body .ref {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}/*# sourceMappingURL=App.css.map */
